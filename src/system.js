@@ -4,7 +4,7 @@ const child_process =require('child_process');
 
 const DEFAULT_OPTIONS = {
     minimalMemory: 3600, //MB
-    minimalSpace: 7500, //MB
+    minimalSpace: 7000, //MB
     supportedPlatform: [ 'linux', 'darwin', 'win32' ],
     onMessage: (message) => {}
 };
