@@ -60,7 +60,7 @@ class System {
                     resolve(false);
                 } else {
                     if (info.free < this.opts.minimalSpace * 1024 * 1024) {
-                        this.opts.onMessage('Not enough space in home directory!');
+                        this.opts.onMessage(`Not enough space in home directory! Free: ${info.free}; needed: ${this.opts.minimalSpace * 1024 * 1024}`);
                         return resolve(false);
                     }
                     if (this.isWindows()) {
