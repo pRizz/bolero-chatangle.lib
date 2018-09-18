@@ -203,7 +203,7 @@ class Controller {
     // Wait for IRI network syncing and old transactions to flow through the ZMQ before listening
     // Else you get flooded with old transactions, denying service
     async iotaTransactionStreamDelay() {
-        const delayInMinutes = 30
+        const delayInMinutes = 10
         const delayInMilliseconds = delayInMinutes * 60 * 1000
         this.message('iotaTransactionStream', `waiting ${delayInMinutes} minutes for Node to sync`);
         return new Promise((resolve) => {
