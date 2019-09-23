@@ -11,7 +11,7 @@ const { BaseInstaller } = require('./base-installer');
 const DEFAULT_OPTIONS = {
     name: 'db',
     source: 'http://db.iota.partners/iri-mainnetdb.tar.gz',
-    databaseVersion: '1.5.4',
+    databaseVersion: '1.8.1-RELEASE',
     onMessage: (message) => {}
 };
 
