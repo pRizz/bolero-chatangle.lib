@@ -112,6 +112,6 @@
     "eslint-loader": "^2.2.1",
     "nightwatch": "^1.2.4",
     "selenium-server": "^3.141.59",
-    "webpack-bundle-analyzer": "^2.13.1"
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
